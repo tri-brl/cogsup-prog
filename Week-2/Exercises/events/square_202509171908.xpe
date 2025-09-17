@@ -1,0 +1,12 @@
+#Expyriment 1.0.0 (Python 3.11.9), .xpe-file, coding: cp1252
+#date: Wed Sep 17 2025 19:08:28
+#sha1: e63722
+#modules: 
+#display: size=(800, 600), window_mode=True, opengl=2
+#os: uname_result(system='Windows', node='Madhusree', release='10', version='10.0.26100', machine='AMD64')
+Time,Type,Event,Value,Detail,Detail2
+918,stderr,received,'Traceback (most recent call last):'
+918,stderr,received,'  File "C:\\Users\\aviba\\downloads\\cogsup-core1\\programming\\Materials\\week-2\\exercises\\square.py", line 15, in <module>'
+919,stderr,received,"    square = stimuli.Square((50,50), colour='blue')"
+920,stderr,received,'             ^^^^^^^^^^^^^^'
+920,stderr,received,"AttributeError: module 'expyriment.stimuli' has no attribute 'Square'"
