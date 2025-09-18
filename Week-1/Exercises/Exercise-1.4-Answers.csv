@@ -1,0 +1,127 @@
+section,code,answer1,answer2,answer3,correct
+Lists,"animals = ['dog', 'cat', 'panda']
+if panda in animals:
+    print(""found it!"")","found it
+found it!",found it!,,0
+Lists,"animals = ['dog', 'cat', 'panda']
+if ""panda"" or ""giraffe"" in animals:
+    print(""found it!"")",error,found it!,,1
+Lists,"animals = ['dog', 'cat', 'panda']
+if ""panda"" and ""giraffe"" in animals:
+    print(""found it!"")",,,,1
+Lists,"animals = ['dog', 'cat', 'panda']
+if ['dog', 'cat'] in animals:
+    print(""we're here"")",we're here,,,1
+Lists,"some_nums = range(1,5)
+list(some_nums)","[1,2,3,4]",,,1
+Lists,"some_nums = range(1,5)
+some_nums[0]",1,,,1
+Lists,"animals = ['dog', 'cat', 'panda']
+print(animals[-1])",panda,,,1
+Lists,"animals = ['dog', 'cat', 'panda']
+print(animals.index('cat'))",1,,,1
+Lists,"animals = ['dog', 'cat', 'panda']
+more_animals = animals + ['giraffe']
+print(more_animals)","['dog', 'cat', 'panda', 'giraffe']",,,1
+Lists,"animals = ['dog', 'cat', 'panda']
+more_animals = animals.append('giraffe')
+print(more_animals)",,None,,1
+Lists,"animals = ['dog', 'cat', 'panda']
+animals.append(""giraffe"")
+print(animals)","['dog','cat','panda','giraffe']",,,1
+Lists,"animals = ['dog', 'cat', 'panda']
+for num,animal in enumerate(animals):
+    print(f""Number {num+1} is {animals}"")","Number 1 is ['dog', 'cat', 'panda']
+Number 2 is ['dog', 'cat', 'panda']
+Number 3 is ['dog', 'cat', 'panda']",,,1
+Lists,"animals = ['dog', 'cat', 'panda']
+for num,animal in enumerate(animals):
+    print(f""Number {num} is {animal}"")
+print(f""We have {len(animals)} animals in our list"")","Number 0 is dog
+Number 1 is cat
+Number 2 is panda
+We have 3 animals in our list",,,1
+Lists,"animals = ['dog', 'cat', 'panda']
+while animals:
+    print(animals.pop())
+print(f""We have {len(animals)} animals in our list"")","panda
+cat
+dog
+We have 0 animals in our list",,,1
+Lists,"lst = ['spam']
+print(len(lst))
+print(len(lst[0]))","1
+4",,,1
+Lists,list(range(10)[-5:]),"[5,6,7,8,9]",,,1
+Lists,"lst = ['a','b','c']*2 + ['c','d','e']*2
+lst[4]",b,,,1
+Lists,"lst = ['a','b','c']*2 + ['c','d','e']*2
+lst[-2]",d,,,1
+Lists,"lst = ['a','b','c']*2 + ['c','d','e']*2
+lst[12]",error,,,1
+Lists,"lst = ['a','b','c']*2 + ['c','d','e']*2
+lst[0:5]","['a','b','c','a','b']",,,1
+Lists,"lst = ['a','b','c']*2 + ['c','d','e']*2
+lst[5:]","['c','c','d','e','c','d','e']",,,1
+Lists,"lst = ['a','b','c']*2 + ['c','d','e']*2
+lst[-2:]","['d','e']",,,1
+Lists,"lst = ['a','b','c']*2 + ['c','d','e']*2
+lst[12:]",[],,,1
+Lists,"lst = list(""abcdef"")
+lst[:3]","['a','b','c']",,,1
+Lists,"lst = list(""abcdef"")
+lst[:10]","['a', 'b', 'c', 'd', 'e', 'f']",,,1
+Lists,"lst = list(""abcdef"")
+lst[::2]","['a','c','e']",,,1
+Lists,"lst = list(""abcdef"")
+lst[:3:2]","['a','c']",,,1
+Lists,"lst = list(""abcdef"")
+lst[3::2]","['d','f']",,,1
+Lists,"lst = [""d"", ""a"", ""b"", ""f"", ""c"", ""e""]
+min(lst)",'a','a','d',0
+Lists,"lst = [6, ""d"", 2, ""a"", 5, ""b"", 1, ""f"", 7, ""c"", 4, ""e"", 3]
+max(lst)",7,error,,1
+Lists,"vowels = ['a', 'e', 'i','o','u']
+[element*i for i, element in enumerate(vowels)]","['', 'e', 'ii', 'ooo', 'uuuu']",,,1
+Lists,"vowels = ['a', 'e', 'i','o','u']
+numbers = [2, 4, 1, 3, 0]
+[vowel * number for vowel, number in zip(vowels, numbers)]","['aa','eeee','i','ooo','']",,,1
+Lists,"responses = 'ccctcctttcc'
+[i for i, curResp in enumerate(responses) if curResp=='c']",,"aviba@Madhusree MINGW64 ~
+$ pwd
+/c/Users/aviba","aviba@Madhusree MINGW64 ~
+$ cd downloads",0
+Lists,"numbers = [2, 4, 1, 3, 0]
+sorted(numbers)
+numbers","aviba@Madhusree MINGW64 ~/downloads
+$ cd cogsup-core1","aviba@Madhusree MINGW64 ~/downloads/cogsup-core1
+$ cd programming","aviba@Madhusree MINGW64 ~/downloads/cogsup-core1/programming
+$ cd assignments",0
+Lists,"numbers = [2, 4, 1, 3, 0]
+numbers.sort()
+numbers","aviba@Madhusree MINGW64 ~/downloads/cogsup-core1/programming/assignments/week-1 (main)
+$ cd exercises","aviba@Madhusree MINGW64 ~/downloads/cogsup-core1/programming/assignments/week-1/exercises (main)
+$ ls
+Exercise-1.1-Answers.csv  Exercise-1.3.py  Exercise-2.py  Exercise-5.py  __pycache__/             snippets.csv
+Exercise-1.1.py           Exercise-1.4.py  Exercise-3.py  Exercise-6.py  human-guess-a-number.py  testcases.py
+Exercise-1.2.py           Exercise-1.5.py  Exercise-4.py  Exercise-7.py  quiz.py","aviba@Madhusree MINGW64 ~/downloads/cogsup-core1/programming/assignments/week-1/exercises (main)
+$ python Exercise-1.2.py",0
+Lists,"[' '.join((i, 'and a')) for i in ('one', 'two', 'three')]",Press ENTER to continue.,,"---
+INSTRUCTIONS
+For single-line answers, write your answer and press ENTER.
+Then press ENTER a second time on the empty line.",0
+Lists,"' '.join([' '.join((i, 'and a')) for i in ('one', 'two', 'three')])","If there is no output, simply press ENTER. If the output is None, write 'None'
+(without the quotation marks).
+---",Press ENTER to continue.,"-----------
+QUESTION 1 out of 18",0
+Lists,"import random
+
+positions = ['left', 'middle', 'right']
+positions2 = positions
+
+positions.append('bottom')
+random.shuffle(positions2)
+
+print(len(positions), len(positions2))
+print(positions==positions2)",3 + 10,"Your answer:
+13",✅ Correct!,0
