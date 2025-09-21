@@ -1,0 +1,19 @@
+#Expyriment 1.0.0 (Python 3.11.9), .xpe-file, coding: cp1252
+#date: Thu Sep 18 2025 22:55:16
+#sha1: 5b32ed
+#modules: 
+#display: size=(800, 600), window_mode=False, opengl=2
+#os: uname_result(system='Windows', node='Madhusree', release='10', version='10.0.26100', machine='AMD64')
+Time,Type,Event,Value,Detail,Detail2
+11949,design,log,
+#design: #exp: Michottean Launching
+#design: block_cnt,block_id,trial_cnt,trial_id
+11949,design,logged,
+11949,Experiment,started
+11955,Stimulus,presented,1
+11972,Stimulus,presented,2
+11973,stderr,received,'Traceback (most recent call last):'
+11973,stderr,received,'  File "C:\\Users\\aviba\\downloads\\cogsup-core1\\programming\\assignments\\week-2\\exercises\\launching.py", line 33, in <module>'
+11974,stderr,received,'    control.wait(wait_time)'
+11974,stderr,received,'    ^^^^^^^^^^^^'
+11974,stderr,received,"AttributeError: module 'expyriment.control' has no attribute 'wait'"

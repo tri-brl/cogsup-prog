@@ -1,0 +1,12 @@
+#Expyriment 1.0.0 (Python 3.11.9), .xpe-file, coding: cp1252
+#date: Fri Sep 19 2025 00:04:13
+#sha1: 3f26fb
+#modules: 
+#display: size=(800, 600), window_mode=True, opengl=2
+#os: uname_result(system='Windows', node='Madhusree', release='10', version='10.0.26100', machine='AMD64')
+Time,Type,Event,Value,Detail,Detail2
+446,stderr,received,'Traceback (most recent call last):'
+446,stderr,received,'  File "C:\\Users\\aviba\\downloads\\cogsup-core1\\programming\\assignments\\week-2\\exercises\\labeled_shapes.py", line 17, in <module>'
+447,stderr,received,'    triangle = stimuli.Triangle(size=(triangle_side, triangle_side), colour=(128, 0, 128))'
+447,stderr,received,'               ^^^^^^^^^^^^^^^^'
+448,stderr,received,"AttributeError: module 'expyriment.stimuli' has no attribute 'Triangle'"

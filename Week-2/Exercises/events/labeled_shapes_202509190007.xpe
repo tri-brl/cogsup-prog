@@ -1,0 +1,18 @@
+#Expyriment 1.0.0 (Python 3.11.9), .xpe-file, coding: cp1252
+#date: Fri Sep 19 2025 00:07:58
+#sha1: 18d4e3
+#modules: 
+#display: size=(800, 600), window_mode=True, opengl=2
+#os: uname_result(system='Windows', node='Madhusree', release='10', version='10.0.26100', machine='AMD64')
+Time,Type,Event,Value,Detail,Detail2
+439,stderr,received,'Exception ignored in: <function Visual.__del__ at 0x0000022025DCA340>'
+439,stderr,received,'Traceback (most recent call last):'
+439,stderr,received,'  File "C:\\Users\\aviba\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\expyriment\\stimuli\\_visual.py", line 266, in __del__'
+440,stderr,received,'    if self._compression_filename is not None:'
+440,stderr,received,'       ^^^^^^^^^^^^^^^^^^^^^^^^^^'
+440,stderr,received,"AttributeError: 'TextLine' object has no attribute '_compression_filename'"
+440,stderr,received,'Traceback (most recent call last):'
+440,stderr,received,'  File "C:\\Users\\aviba\\downloads\\cogsup-core1\\programming\\assignments\\week-2\\exercises\\labeled_shapes.py", line 55, in <module>'
+440,stderr,received,'    triangle_label = stimuli.TextLine('
+440,stderr,received,'                     ^^^^^^^^^^^^^^^^^'
+441,stderr,received,"TypeError: TextLine.__init__() got an unexpected keyword argument 'colour'"

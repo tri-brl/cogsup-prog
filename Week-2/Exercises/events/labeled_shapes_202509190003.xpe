@@ -1,0 +1,18 @@
+#Expyriment 1.0.0 (Python 3.11.9), .xpe-file, coding: cp1252
+#date: Fri Sep 19 2025 00:03:29
+#sha1: a37d3c
+#modules: 
+#display: size=(800, 600), window_mode=True, opengl=2
+#os: uname_result(system='Windows', node='Madhusree', release='10', version='10.0.26100', machine='AMD64')
+Time,Type,Event,Value,Detail,Detail2
+519,stderr,received,'Exception ignored in: <function Visual.__del__ at 0x000002182ECDE340>'
+519,stderr,received,'Traceback (most recent call last):'
+519,stderr,received,'  File "C:\\Users\\aviba\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\expyriment\\stimuli\\_visual.py", line 266, in __del__'
+520,stderr,received,'    if self._compression_filename is not None:'
+520,stderr,received,'       ^^^^^^^^^^^^^^^^^^^^^^^^^^'
+520,stderr,received,"AttributeError: 'Shape' object has no attribute '_compression_filename'"
+520,stderr,received,'Traceback (most recent call last):'
+520,stderr,received,'  File "C:\\Users\\aviba\\downloads\\cogsup-core1\\programming\\assignments\\week-2\\exercises\\labeled_shapes.py", line 20, in <module>'
+521,stderr,received,'    triangle = stimuli.Shape('
+521,stderr,received,'               ^^^^^^^^^^^^^^'
+521,stderr,received,"TypeError: Shape.__init__() got an unexpected keyword argument 'shape'"

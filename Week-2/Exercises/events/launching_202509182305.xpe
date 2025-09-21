@@ -1,0 +1,12 @@
+#Expyriment 1.0.0 (Python 3.11.9), .xpe-file, coding: cp1252
+#date: Thu Sep 18 2025 23:05:54
+#sha1: 38b4b0
+#modules: 
+#display: size=(800, 600), window_mode=True, opengl=2
+#os: uname_result(system='Windows', node='Madhusree', release='10', version='10.0.26100', machine='AMD64')
+Time,Type,Event,Value,Detail,Detail2
+415,stderr,received,'Traceback (most recent call last):'
+415,stderr,received,'  File "C:\\Users\\aviba\\downloads\\cogsup-core1\\programming\\assignments\\week-2\\exercises\\launching.py", line 20, in <module>'
+416,stderr,received,'    center_x, center_y = exp.screen.center'
+416,stderr,received,'                         ^^^^^^^^^^^^^^^^^'
+423,stderr,received,"AttributeError: 'Screen' object has no attribute 'center'. Did you mean: 'center_x'?"

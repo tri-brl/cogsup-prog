@@ -1,0 +1,22 @@
+#Expyriment 1.0.0 (Python 3.11.9), .xpe-file, coding: cp1252
+#date: Fri Sep 19 2025 15:44:10
+#sha1: 8cef95
+#modules: 
+#display: size=(800, 600), window_mode=True, opengl=2
+#os: uname_result(system='Windows', node='Madhusree', release='10', version='10.0.26100', machine='AMD64')
+Time,Type,Event,Value,Detail,Detail2
+2685,design,log,
+#design: #exp: Shapes with lines and labels
+#design: block_cnt,block_id,trial_cnt,trial_id
+2685,design,logged,
+2685,Experiment,started
+2686,Stimulus,presented,0
+2687,Stimulus,presented,1
+2687,Stimulus,presented,2
+2688,Stimulus,presented,3
+2689,Stimulus,presented,4
+2723,Stimulus,presented,5
+2724,stderr,received,'Traceback (most recent call last):'
+2724,stderr,received,'  File "C:\\Users\\aviba\\downloads\\cogsup-core1\\programming\\assignments\\week-2\\exercises\\labeled_shapes.py", line 81, in <module>'
+2725,stderr,received,'    exp.clock.wait()'
+2725,stderr,received,"TypeError: Clock.wait() missing 1 required positional argument: 'waiting_time'"

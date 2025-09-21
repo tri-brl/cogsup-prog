@@ -1,0 +1,53 @@
+#Expyriment 1.0.0 (Python 3.11.9), .xpe-file, coding: cp1252
+#date: Thu Sep 18 2025 23:42:20
+#sha1: e908fe
+#modules: 
+#display: size=(800, 600), window_mode=True, opengl=2
+#os: uname_result(system='Windows', node='Madhusree', release='10', version='10.0.26100', machine='AMD64')
+Time,Type,Event,Value,Detail,Detail2
+397,Stimulus,presented,0
+408,Stimulus,presented,1
+1409,Stimulus,presented,0
+1447,Stimulus,presented,1
+1458,Stimulus,presented,0
+1466,Stimulus,presented,1
+1477,Stimulus,presented,0
+1482,Stimulus,presented,1
+1493,Stimulus,presented,0
+1499,Stimulus,presented,1
+1510,Stimulus,presented,0
+1515,Stimulus,presented,1
+1526,Stimulus,presented,0
+1532,Stimulus,presented,1
+1543,Stimulus,presented,0
+1549,Stimulus,presented,1
+1559,Stimulus,presented,0
+1565,Stimulus,presented,1
+1576,Stimulus,presented,0
+1582,Stimulus,presented,1
+1593,Stimulus,presented,0
+1598,Stimulus,presented,1
+1609,Stimulus,presented,0
+1615,Stimulus,presented,1
+1626,Stimulus,presented,0
+1632,Stimulus,presented,1
+1643,Stimulus,presented,0
+1648,Stimulus,presented,1
+1659,Stimulus,presented,0
+1665,Stimulus,presented,1
+1676,Stimulus,presented,0
+1682,Stimulus,presented,1
+1692,Stimulus,presented,0
+1699,Stimulus,presented,1
+1709,Stimulus,presented,0
+1715,Stimulus,presented,1
+1726,Stimulus,presented,0
+1732,Stimulus,presented,1
+1742,Stimulus,presented,0
+1748,Stimulus,presented,1
+1759,Stimulus,presented,0
+1765,Stimulus,presented,1
+1776,Stimulus,presented,0
+1782,Stimulus,presented,1
+2782,Experiment,ended
+2830,Stimulus,presented,2

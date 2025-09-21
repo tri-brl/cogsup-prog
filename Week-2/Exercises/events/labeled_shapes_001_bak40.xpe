@@ -1,0 +1,19 @@
+#Expyriment 1.0.0 (Python 3.11.9), .xpe-file, coding: cp1252
+#date: Fri Sep 19 2025 16:04:38
+#sha1: 9964fd
+#modules: 
+#display: size=(800, 600), window_mode=True, opengl=2
+#os: uname_result(system='Windows', node='Madhusree', release='10', version='10.0.26100', machine='AMD64')
+Time,Type,Event,Value,Detail,Detail2
+2755,design,log,
+#design: #exp: Shapes with lines and labels
+#design: block_cnt,block_id,trial_cnt,trial_id
+2755,design,logged,
+2755,Experiment,started
+2756,Stimulus,presented,0
+2757,Stimulus,presented,1
+2757,Stimulus,presented,2
+2758,Stimulus,presented,3
+2759,Stimulus,presented,4
+2763,Stimulus,presented,5
+4763,Experiment,ended

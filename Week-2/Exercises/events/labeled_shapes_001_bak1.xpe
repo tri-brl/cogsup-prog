@@ -1,0 +1,26 @@
+#Expyriment 1.0.0 (Python 3.11.9), .xpe-file, coding: cp1252
+#date: Fri Sep 19 2025 00:08:59
+#sha1: 44f426
+#modules: 
+#display: size=(800, 600), window_mode=True, opengl=2
+#os: uname_result(system='Windows', node='Madhusree', release='10', version='10.0.26100', machine='AMD64')
+Time,Type,Event,Value,Detail,Detail2
+1808,design,log,
+#design: #exp: Labeled Shapes
+#design: block_cnt,block_id,trial_cnt,trial_id
+1808,design,logged,
+1808,Experiment,started
+1809,stderr,received,'Traceback (most recent call last):'
+1810,stderr,received,'  File "C:\\Users\\aviba\\downloads\\cogsup-core1\\programming\\assignments\\week-2\\exercises\\labeled_shapes.py", line 73, in <module>'
+1811,stderr,received,'    triangle.present(clear=True, update=False)'
+1811,stderr,received,'  File "C:\\Users\\aviba\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\expyriment\\stimuli\\_visual.py", line 1171, in present'
+1811,stderr,received,'    self.preload(inhibit_ogl_compress=True)'
+1811,stderr,received,'  File "C:\\Users\\aviba\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\expyriment\\stimuli\\_visual.py", line 1059, in preload'
+1812,stderr,received,'    self._get_surface(),'
+1812,stderr,received,'    ^^^^^^^^^^^^^^^^^^^'
+1812,stderr,received,'  File "C:\\Users\\aviba\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\expyriment\\stimuli\\_visual.py", line 490, in _get_surface'
+1813,stderr,received,'    tmp = self._create_surface()'
+1813,stderr,received,'          ^^^^^^^^^^^^^^^^^^^^^^'
+1813,stderr,received,'  File "C:\\Users\\aviba\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\expyriment\\stimuli\\_shape.py", line 667, in _create_surface'
+1825,stderr,received,'    pygame.draw.polygon(surface, self.colour, poly, 0)'
+1825,stderr,received,'ValueError: points argument must contain more than 2 points'
