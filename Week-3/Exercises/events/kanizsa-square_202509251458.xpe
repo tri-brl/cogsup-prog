@@ -1,0 +1,12 @@
+#Expyriment 1.0.0 (Python 3.11.9), .xpe-file, coding: cp1252
+#date: Thu Sep 25 2025 14:58:39
+#sha1: d226ce
+#modules: 
+#display: size=(800, 600), window_mode=True, opengl=2
+#os: uname_result(system='Windows', node='Madhusree', release='10', version='10.0.26100', machine='AMD64')
+Time,Type,Event,Value,Detail,Detail2
+609,Stimulus,presented,0
+615,Stimulus,presented,1
+77159,Keyboard,received,13,wait
+77159,Experiment,ended
+77164,Stimulus,presented,2

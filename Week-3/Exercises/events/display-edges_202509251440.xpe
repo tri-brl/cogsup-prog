@@ -1,0 +1,12 @@
+#Expyriment 1.0.0 (Python 3.11.9), .xpe-file, coding: cp1252
+#date: Thu Sep 25 2025 14:40:36
+#sha1: a1266b
+#modules: 
+#display: size=(800, 600), window_mode=True, opengl=2
+#os: uname_result(system='Windows', node='Madhusree', release='10', version='10.0.26100', machine='AMD64')
+Time,Type,Event,Value,Detail,Detail2
+522,stderr,received,'Traceback (most recent call last):'
+522,stderr,received,'  File "C:\\Users\\aviba\\downloads\\cogsup-core1\\programming\\assignments\\week-3\\exercises\\display-edges.py", line 7, in <module>'
+523,stderr,received,'    exp.screen.present(clear=False, update=True)'
+523,stderr,received,'    ^^^^^^^^^^^^^^^^^^'
+523,stderr,received,"AttributeError: 'Screen' object has no attribute 'present'"

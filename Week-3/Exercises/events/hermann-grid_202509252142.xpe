@@ -1,0 +1,46 @@
+#Expyriment 1.0.0 (Python 3.11.9), .xpe-file, coding: cp1252
+#date: Thu Sep 25 2025 21:42:13
+#sha1: 02d571
+#modules: 
+#display: size=(800, 600), window_mode=True, opengl=2
+#os: uname_result(system='Windows', node='Madhusree', release='10', version='10.0.26100', machine='AMD64')
+Time,Type,Event,Value,Detail,Detail2
+746,Stimulus,presented,0
+747,Stimulus,presented,1
+747,Stimulus,presented,2
+748,Stimulus,presented,3
+748,Stimulus,presented,4
+749,Stimulus,presented,5
+750,Stimulus,presented,6
+750,Stimulus,presented,7
+751,Stimulus,presented,8
+751,Stimulus,presented,9
+752,Stimulus,presented,10
+752,Stimulus,presented,11
+753,Stimulus,presented,12
+753,Stimulus,presented,13
+754,Stimulus,presented,14
+755,Stimulus,presented,15
+756,Stimulus,presented,16
+756,Stimulus,presented,17
+757,Stimulus,presented,18
+758,Stimulus,presented,19
+758,Stimulus,presented,20
+759,Stimulus,presented,21
+760,Stimulus,presented,22
+761,Stimulus,presented,23
+761,Stimulus,presented,24
+762,Stimulus,presented,25
+763,Stimulus,presented,26
+763,Stimulus,presented,27
+764,Stimulus,presented,28
+764,Stimulus,presented,29
+765,Stimulus,presented,30
+765,Stimulus,presented,31
+766,Stimulus,presented,32
+766,Stimulus,presented,33
+767,Stimulus,presented,34
+768,Stimulus,presented,35
+1418,Keyboard,received,13,wait
+1418,Experiment,ended
+1430,Stimulus,presented,36
