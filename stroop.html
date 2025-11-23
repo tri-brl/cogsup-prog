@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Stroop</title>
+
+    <script src="https://unpkg.com/jspsych@8.0.2"></script>
+    <script src="https://unpkg.com/@jspsych/plugin-html-keyboard-response@2.0.0"></script>
+    <link href="https://unpkg.com/jspsych@8.0.2/css/jspsych.css" rel="stylesheet" />
+  </head>
+
+  <body></body>
+
+  <script>
+    const jsPsych = initJsPsych({
+      on_finish: function(){
+        jsPsych.data.get().localSave("csv", "demo_jspsych_results.csv");
+      }
+    });
+
+    let timeline = [];
+
+    timeline.push({
+      type: jsPsychHtmlKeyboardResponse,
+      stimulus: "<div>+</div>",
+      choices: "NO_KEYS",
+      trial_duration: 500
+    });
+    timeline.push({
+      type: jsPsychHtmlKeyboardResponse,
+      stimulus: "<p style='color:red;'>red</p>",
+      choices: "ALL_KEYS",
+      trial_duration: 1500
+    });
+    timeline.push({
+      type: jsPsychHtmlKeyboardResponse,
+      stimulus: "",
+      choices: "NO_KEYS",
+      trial_duration: 200
+    });
+
+    timeline.push({
+      type: jsPsychHtmlKeyboardResponse,
+      stimulus: "<div>+</div>",
+      choices: "NO_KEYS",
+      trial_duration: 500
+    });
+    timeline.push({
+      type: jsPsychHtmlKeyboardResponse,
+      stimulus: "<p style='color:blue;'>blue</p>",
+      choices: "ALL_KEYS",
+      trial_duration: 1500
+    });
+    timeline.push({
+      type: jsPsychHtmlKeyboardResponse,
+      stimulus: "",
+      choices: "NO_KEYS",
+      trial_duration: 200
+    });
+
+    timeline.push({
+      type: jsPsychHtmlKeyboardResponse,
+      stimulus: "<div'>+</div>",
+      choices: "NO_KEYS",
+      trial_duration: 500
+    });
+    timeline.push({
+      type: jsPsychHtmlKeyboardResponse,
+      stimulus: "<p style='color:green;'>green</p>",
+      choices: "ALL_KEYS",
+      trial_duration: 1500
+    });
+    timeline.push({
+      type: jsPsychHtmlKeyboardResponse,
+      stimulus: "",
+      choices: "NO_KEYS",
+      trial_duration: 200
+    });
+
+    jsPsych.run(timeline);
+  </script>
+</html>
